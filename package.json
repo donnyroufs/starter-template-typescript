@@ -9,7 +9,6 @@
     "build": "tsc",
     "test:watch": "jest --watch --verbose",
     "lint": "eslint . --ext .ts",
-    "gen:module": "bystro module-template ./src",
     "prepare": "husky install"
   },
   "license": "MIT",
