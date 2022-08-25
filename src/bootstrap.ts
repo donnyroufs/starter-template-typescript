@@ -1,7 +1,4 @@
-import "dotenv/config"
-import "reflect-metadata"
-
-export async function bootstrap() {
+export async function bootstrap(): Promise<void> {
   console.log("bootstrapped 👋")
 }
 
