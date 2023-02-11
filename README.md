@@ -1,5 +1,17 @@
-Clone the repo, copy the script somewhere, modify the variables and set an alias in your shell.  
-You could also use the github CLI but I can't be bothered to install it.
+# Starter template for TypeScript
+
+## Features
+
+* Github pipeline that runs tests
+* Git hooks (linting, running tests)
+* Dockerized application for development
+* Tests pre-configured
+* My opinionated Eslint and TypeScript rules
+* VSCode debugging
+
+## Create new projects
+
+Clone the repository, copy the script somewhere, modify the variables and set an alias in your shell.
 
 ```bash
 #!/bin/bash
@@ -17,10 +29,10 @@ cp -R $BASE_DIR/$TEMPLATE_DIR $BASE_DIR/$dir/$name
 cd $BASE_DIR/$dir/$name && code . && git init && yarn
 
 echo successfully bootstrapped ts template in $BASE_DIR/$dir/$name
-
 ```
 
-and then simply create a project by using your alias.
+This will allow you to easily create new projects with the same template,
+like so:
 
 1. setup:ts (my alias)
 2. asks for directory: playground

@@ -11,6 +11,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "strictPropertyInitialization": false,
-    "baseUrl": ".",
+    "strictNullChecks": true,
+    "allowJs": false,
   },
 }
