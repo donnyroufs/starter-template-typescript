@@ -6,5 +6,5 @@ export default {
     "^.+\\.ts?$": "ts-jest",
   },
   setupFilesAfterEnv: ["jest-extended/all"],
-  testMatch: ["**/*Tests.ts"],
-}
+  testMatch: ["**/*.spec.ts"],
+};
